@@ -4,16 +4,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-repeat: no-repeat;
 }
 
 body {
-    background-image: url(../img/background.png);
-    background-size: contain;
- 
+    background-image: url(../img/background.jpg);
+    background-size: cover;
     width: 100vw;
     height: 98vh;
-    margin-top: 10px;
-    font-family: 'Ubuntu', sans-serif;
+    
 }
 
 .container-a {
