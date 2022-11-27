@@ -22,7 +22,7 @@ body {
 }
 
 .container-b {
-    background-color: #f5f5dc;
+    background-color: #101010;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -39,10 +39,13 @@ body {
 }
 
 h1 {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 50px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 50px;
-    color: rgb(41, 15, 105);
+    color: #f5f5dc;
+    
     animation: fromtop .7s .2s backwards;
 }
 
