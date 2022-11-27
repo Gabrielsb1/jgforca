@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 * {
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/bagroundlousa.jpg);
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -22,25 +22,27 @@ body {
 }
 
 .container-b {
-    background-image: url(../img/background.jpg);
+    background-color: #f5f5dc;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    background-size: cover;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid rgb(152, 152, 152);
-    border-radius: 100px;
-    padding: 150px;
+    flex-wrap: wrap;
     
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 h1 {
     margin-bottom: 50px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     font-size: 50px;
-    color: rgb(20, 5, 57);
+    color: rgb(41, 15, 105);
     animation: fromtop .7s .2s backwards;
 }
 
