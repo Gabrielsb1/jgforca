@@ -126,22 +126,22 @@ async function atraso(tempo){
 function carregaImagemForca(){
     switch(tentativas){
         case 5:
-            document.getElementById("imagem").style.background  = "url('./img/forca01.png')";
+            document.getElementById("imagem").style.background  = "url('./img/forca-1.png')";
             break;
         case 4:
-            document.getElementById("imagem").style.background  = "url('./img/forca02.png')";
+            document.getElementById("imagem").style.background  = "url('./img/forca-2.png')";
             break;
         case 3:
-            document.getElementById("imagem").style.background  = "url('./img/forca03.png')";
+            document.getElementById("imagem").style.background  = "url('./img/forca-3.png')";
             break;
         case 2:
-            document.getElementById("imagem").style.background  = "url('./img/forca04.png')";
+            document.getElementById("imagem").style.background  = "url('./img/forca-4.png')";
             break;
         case 1:
-            document.getElementById("imagem").style.background  = "url('./img/forca05.png')";
+            document.getElementById("imagem").style.background  = "url('./img/forca-5.png')";
             break;
         case 0:
-            document.getElementById("imagem").style.background  = "url('./img/forca06.png')";
+            document.getElementById("imagem").style.background  = "url('./img/forca-6.png')";
             break;
         default:
             document.getElementById("imagem").style.background  = "url('./img/forca.png')";
@@ -512,4 +512,3 @@ async function piscarBotaoJogarNovamente(querJogar){
         document.getElementById("jogarNovamente").style.display = "none";
     }
 }
-
